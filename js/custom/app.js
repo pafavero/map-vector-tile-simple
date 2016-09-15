@@ -24,7 +24,6 @@ MAP.ol3Map = function () {
   new ol.Map({
     layers: [_layer],
     target: 'map',
-    controls: [],
     view: new ol.View({
       center: ol.proj.transform([-73.99, 40.75], 'EPSG:4326', 'EPSG:3857'),
       zoom: 13,
