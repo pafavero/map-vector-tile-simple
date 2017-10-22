@@ -15,7 +15,7 @@ MAP.ol3Map = function () {
       attributions: [new ol.Attribution({html: ATTRIBUTION})],
       format: new ol.format.GeoJSON(),
       tileGrid: ol.tilegrid.createXYZ({maxZoom: 16, tileSize: [256, 256]}),
-      url: 'https://vector.mapzen.com/osm/all/{z}/{x}/{y}.json?api_key=' + KEY,
+      url: 'http://tile.mapzen.com/mapzen/vector/v1/{z}/{x}/{y}.json?api_key=' + KEY,
       tileLoadFunction: tileLoadFunction
     }),
     style: createOl3Style()
