@@ -6,6 +6,6 @@ and and often used with raster OSM Tile. I wanted to test how Mapzen’s Tile Ve
 Test on Chrome, FF and Ms-Edge
 
 <p>
-    <a href="https://cdn.rawgit.com/pafavero/map-vector-tile-simple/master/index.html" target="_blank" >Show preview</a>
+    <a href="https://mapzen.github.io/openlayers-mapzen-vector-tile-example/" target="_blank" >Show preview</a>
 </p>  
 
